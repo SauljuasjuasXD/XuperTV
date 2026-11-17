@@ -1,0 +1,32 @@
+# Datos personales y de sesion: nunca se suben
+service.json
+device_state.json
+library_state.json
+playback_state.json
+update.json
+diagnostico.log
+*.log
+artwork/
+private/
+
+# Salidas de compilacion y empaquetado
+salida/
+capturas/
+build/
+build-host/
+dist/
+*.nro
+*.elf
+*.map
+*.nacp
+*.zip
+*.o
+*.d
+
+# Varios
+__pycache__/
+*.pyc
+notas-release.md
+
+# Hashes de la release original; los de XuperTV van como asset de la release
+/SHA256SUMS.txt

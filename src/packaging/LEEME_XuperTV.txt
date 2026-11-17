@@ -1,0 +1,17 @@
+XuperTV 0.14.1 (basado en XuperSwitch de Jona Ruacho, licencia MIT)
+Codigo: https://github.com/SauljuasjuasXD/XuperTV
+Proyecto original: https://github.com/jonaruacho/Xuper-TV-by-JonaRuacho
+
+INSTALACION
+1. Apaga o saca la SD de la Switch (necesita custom firmware / homebrew).
+2. Copia la carpeta "switch" a la raiz de la SD. Si pregunta, elige combinar/reemplazar.
+3. Vuelve a poner la SD, abre el menu de homebrew (hbmenu) y ejecuta XuperTV.
+
+IMPORTANTE
+- Abre hbmenu manteniendo R pulsado sobre un juego (modo aplicacion), no desde el album;
+  asi la app tiene memoria suficiente para reproducir video.
+- La app necesita tu propia configuracion de acceso (service.json). Usa service.template.json
+  como guia; este paquete no incluye datos de nadie.
+- ZR busca actualizaciones en las releases de SauljuasjuasXD/XuperTV y verifica el SHA256
+  antes de instalar. Para usar otro repositorio crea switch/xuperswitch/update.json con
+  {"repo":"usuario/nombre"}.
